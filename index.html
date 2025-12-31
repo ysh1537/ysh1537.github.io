@@ -266,6 +266,19 @@
             color: var(--text);
         }
 
+        .badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            background: #ef4444;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 8px;
+            font-weight: 500;
+            vertical-align: text-bottom;
+            letter-spacing: -0.02em;
+        }
+
         /* Featured Card */
         .card.featured {
             border-color: rgba(59, 130, 246, 0.15);
@@ -371,7 +384,10 @@
             <a href="/game/" class="card">
                 <div class="card-icon">🧬</div>
                 <div class="card-content">
-                    <div class="card-title">크리처 연구소</div>
+                    <div class="card-title">
+                        크리처 연구소
+                        <span class="badge">개발중</span>
+                    </div>
                     <div class="card-desc">웹 시뮬레이션 게임</div>
                 </div>
                 <span class="card-arrow">→</span>
